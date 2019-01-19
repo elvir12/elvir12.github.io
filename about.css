@@ -18,7 +18,7 @@ header {
 .content {
       width: 94%;
       margin: 4em auto;
-      font-size: 20px;
+      font-size: 10.7px;
       line-height: 30px;
       text-align: justify;
       color: white;
@@ -45,7 +45,7 @@ nav ul {
       line-height: 60px;
       list-style: none;
       background: rgba(0, 0, 0, 0);
-     
+     overflow: hidden;
       color: #fff;
       padding: 0;
       text-align: right;
