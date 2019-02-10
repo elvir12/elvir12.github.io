@@ -28,7 +28,7 @@
                                     <li><a href="home.html">Home</a></li>
                                     <li><a href="#">About</a></li>
                                     <li><a href="https://www.instagram.com/itselvir">Instagram Feed</a></li>
-                                    <li><a href="kontakt.html">Contact</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
                               </ul>
                         </div>
                         <div class="content">
@@ -49,6 +49,29 @@ Make sure to follow and show support!
                   </nav>
 
             </header>
+<script type="text/javascript">
 
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
 </body>
 </html>
