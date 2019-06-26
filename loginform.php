@@ -10,6 +10,5 @@ if (isset($_POST['submit'])) {
 
 
 	mail($mailTo, $name, $txt, $headers);
-	header("Location: log_in.php?mailsent");
-
+	header("Location: log_in.html?mailsent");
 }
